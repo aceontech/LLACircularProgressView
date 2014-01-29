@@ -1,0 +1,21 @@
+PODS:
+  - AOTToolkit (0.1.0):
+    - AOTToolkit/Crypto
+    - AOTToolkit/UI
+    - AOTToolkit/UICollectionView
+    - AOTToolkit/Util
+  - AOTToolkit/Crypto (0.1.0)
+  - AOTToolkit/UI (0.1.0)
+  - AOTToolkit/UICollectionView (0.1.0)
+  - AOTToolkit/Util (0.1.0)
+  - POViewFrameBuilder (1.0.2)
+
+DEPENDENCIES:
+  - AOTToolkit (~> 0.1.0)
+  - POViewFrameBuilder (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  AOTToolkit: 50463a9f383e03d2fa0d5f948d0f6455f42bb571
+  POViewFrameBuilder: e64d2b7458232cae902ea7de68597b12de8d0399
+
+COCOAPODS: 0.29.0

@@ -28,8 +28,29 @@
 @property (nonatomic, strong) UIColor *progressTintColor;
 
 /**
+ The icon to display. This icon will be tinted with the current tint color.
+ 
+ If left set to nil, a default stop icon is displayed
+ */
+@property (nonatomic, strong) UIImage *icon;
+
+/**
+ Current state of the component.
+ 
+ Default state is 0
+ */
+@property (nonatomic) NSInteger currentState;
+
+/**
  Set the progress of the circular view in an animated manner. Only valid for values between `0` and `1`.
  */
 - (void)setProgress:(float)progress animated:(BOOL)animated;
+
+/**
+ Set state dependent icon.
+ 
+ Provide your own state.
+ */
+- (void)setIcon:(UIImage *)image forState:(NSInteger)state;
 
 @end
